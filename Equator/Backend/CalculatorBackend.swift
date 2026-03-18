@@ -7,6 +7,6 @@
 
 import Foundation
 
-func calcButtonPress() {
-    print("press!")
+func calcButtonPress(_ title: String) {
+    print("press! (\(title))")
 }
