@@ -7,6 +7,22 @@
 
 import Foundation
 
-func calcButtonPress(_ title: String) {
-    print("press! (\(title))")
+func calcDigitButtonPress(_ title: String) {
+    print("press! digit (\(title))")
+}
+
+func calcOperatorButtonPress(_ title: String) {
+    print("press! operator (\(title))")
+}
+
+func calcEqualsPress() {
+    print("press! equals")
+}
+
+func calcBackspacePress() {
+    print("press! backspace")
+}
+
+func calcACPress() {
+    print("press! ac")
 }

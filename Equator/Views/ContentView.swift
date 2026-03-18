@@ -9,11 +9,7 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Grid {
-            GridRow {
-                CalculatorButton(title: "Hello there")
-            }
-        }
+        CalculatorView()
     }
 }
 
